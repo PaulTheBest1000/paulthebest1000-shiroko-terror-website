@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiroko Terror Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="download (1).ico" type="image/x-icon">
+
+        <!-- Open Graph tags --> 
+        <meta property="og:title" content="Shiroko Terror Website" />
+        <meta property="og:description" content="Shiroko Terror from Blue Archive is now in a website!" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/PaulTheBest1000/paulthebest1000-ushio-noa-website/refs/heads/main/bandicam%202025-01-18%2015-25-25-837.jpg" />
+        <meta property="og:url" content="https://paulthebest1000.github.io/paulthebest1000-ushio-noa-website/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Shiroko Terror Website" />
+    
+        <!-- Twitter Card tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shiroko Terror Website" />
+        <meta name="twitter:description" content="Shiroko Terror from Blue Archive is now in a website!" />
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/PaulTheBest1000/paulthebest1000-ushio-noa-website/refs/heads/main/bandicam%202025-01-18%2015-25-25-837.jpg" />
+        <meta name="twitter:url" content="https://paulthebest1000.github.io/paulthebest1000-ushio-noa-website/" />
+</head>
+<body>
+        <!-- Time and Calendar Container with an additional button and audio player -->
+        <div id="time-calendar-container">
+            <div id="time">Loading time...</div>
+            <div id="calendar">Loading calendar...</div>
+        </div>
+    <div class="container">
+        
+    <h2>Welcome to My Shiroko Terror Website!</h2>
+    <p>This is my fifth website using VS Code.</p>
+
+    <p>If you love Sorasaki Hina, click the button below:</p>
+    <button class="button" onclick="showMessage()">Click Me!</button>
+
+    <div id="music-player">
+        <audio id="bg-music" loop>
+            <source src="Blue Archive OST 228.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="music-toggle-btn">Play Music</button>
+        <progress id="progress-bar" value="0" max="100"></progress>
+        <span id="time-display">0:00 / 0:00</span>
+        <div id="message"></div> <!-- Container for custom messages -->
+    </div>
+
+    <div id="jpg-container" style="display:none;">
+        <img id="jpg" src="images (1).jpg" alt="Shiroko Terror JPG">
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="download (1).jpg" alt="Shiroko Terror with a gun" class="image">
+        <div class="text" style="color: darkblue;">This is Shiroko Terror from Blue Archive!</div>
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="images.jpg" alt="Cute Shiroko Terror" class="image">
+        <div class="text" style="color: blue;">Shiroko Terror is cute!</div>
+    </div>
+
+    <p style="color: #5F9EA0; background-color: navy; font-size: 18px; font: bold; margin: 20px; padding: 10px;">More Shiroko Terror Photos Below</p>
+
+    <div class="img-responsive image-container">
+        <img src="download (1).jpg" alt="Shiroko Terror with a gun" class="image">
+        <div class="text" style="color: #ADD8E6;">This is Shiroko Terror from Blue Archive!</div>
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="images.jpg" alt="Cute Shiroko Terror" class="image">
+        <div class="text" style="color: #0047AB;">Shiroko Terror is cute!</div>
+    </div>
+
+    <div id="easter-egg" onclick="showSecret()" style="color: #000086;">Click me for a surprise!</div>
+<script>
+    function showSecret() {
+        alert('You found the secret! Shiroko Terror says hello!');
+    }
+</script>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

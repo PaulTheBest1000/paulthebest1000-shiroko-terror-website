@@ -63,7 +63,7 @@ p {
 }
 
 /* Button styling */
-.button {
+.button1 {
     background-color: navy;
     color: #5F9EA0;
     padding: 15px 30px;
@@ -76,9 +76,27 @@ p {
     margin: 20px auto; /* Centers button */
 }
 
-.button:hover {
+.button1:hover {
     background-color: #5F9EA0;
     color: navy;
+}
+
+.button2 {
+    background-color: purple;
+    color: magenta;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto; /* Centers button */
+}
+
+.button2:hover {
+    background-color: magenta;
+    color: purple;
 }
 
 /* Image Styling */
